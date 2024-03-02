@@ -1,0 +1,93 @@
+.login-form{
+
+    display: flex;
+    flex-direction: column;
+    margin: 70x;
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: white
+    ;
+}
+.signin-page {
+    /* background-color: Your desired background color; */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e78e8f;
+    min-height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+  }
+  .login-form input {
+    
+        border-width: 1px;
+        border-style:solid;
+        border-color: rgb(200,200,200);
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 16px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    
+    
+  }
+
+  .login-form input:focus {
+        outline: none;
+  }
+
+  .signin-btn-login-page {
+    background-color: rgb(47, 127, 231);
+    color: white;
+    border:none;
+    width: 350px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .signin-btn-login-page:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  .wrong-pass-prompt{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .forgot-password-link {
+    color: #ffffff; /* Change the color to your preference */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.forgot-password-link:hover {
+    text-decoration: underline; /* Underline on hover to indicate it's clickable */
+}
+
+.reset-message {
+  color: #27ae60; /* Change the color to your preference */
+  font-size: 14px;
+  margin-top: 10px;
+}
+.logo{
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+}

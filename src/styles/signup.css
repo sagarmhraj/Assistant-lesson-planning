@@ -1,0 +1,106 @@
+.signup-page {
+    /* background-color: Your desired background color; */
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #be9b9c;
+    min-height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-align: center;
+  }
+  .login-form{
+
+    display: flex;
+    flex-direction: column;
+    margin: 70x;
+    padding: 50px;
+}
+a{
+    text-decoration: none;
+    color: white
+    ;
+}
+.login-form input {
+    
+    border-width: 1px;
+    border-style:solid;
+    border-color: rgb(200,200,200);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    
+
+
+}
+
+.login-form input:focus {
+    outline: none;
+}
+
+.signup-btn-login-page {
+background-color: rgb(47, 127, 231);
+color: white;
+border:none;
+width: 350px;
+padding-top: 14px;
+padding-bottom: 14px;
+font-size: 18px;
+font-weight: bold;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+
+.signup-btn-login-page:hover{
+cursor: pointer;
+opacity: 0.8;
+}
+
+.dropdown-signup{
+    border-width: 1px;
+    border-style:solid;
+    border-color: rgb(200,200,200);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    outline: none;
+    cursor: pointer;
+}
+
+.file-upload-button {
+    border-width: 1px;
+    border-style:solid;
+    border-color: rgb(200,200,200);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+  
+  .file-upload-button span {
+    margin-right: 8px;
+  }
+  
+  /* Style the file input if needed */
+  .file-upload-button input[type="file"] {
+    display: none;
+  }
+  

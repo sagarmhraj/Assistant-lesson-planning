@@ -1,0 +1,298 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* style.css */
+
+.flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-8 {
+    gap: 2rem;
+  }
+  
+  .py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .bg-opacity-80 {
+    background: linear-gradient(135deg, #3494e6, #ec6ead);
+    /* background-color: #eda8a9; */
+  }
+  
+  .w-screen {
+    width: 100vw;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text-slate-100 {
+    color: #ccc;
+  }
+  
+  .form {
+    width: 80%;
+    height: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #445777;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem;
+    padding: 1rem 2rem;
+  }
+  
+  .text-base {
+    font-size: 1rem;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .text-gray-700 {
+    color: #03070f;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .border {
+    border: 1px solid #e2e8f0;
+  }
+  
+  .bg-slate-100 {
+    background-color: #a0aec0;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem;
+  }
+  
+  .px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .leading-tight {
+    line-height: 1.25;
+  }
+  
+  .focus\:outline-none:focus {
+    outline: none;
+  }
+  
+  .focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .mt-6 {
+    margin-top: 1.5rem;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  #topic {
+    width: 100%;
+  }
+  
+  .overflow-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .whitespace-pre-wrap {
+    white-space: pre-wrap;
+  }
+  
+  .bg-slate-800 {
+    background-color: #1a202c;
+  }
+  
+  .mt-5 {
+    margin-top: 1.25rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+  }
+  
+  .tracking-wider {
+    letter-spacing: 0.05em;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .lg\:w-5/6 {
+    width: 83.333333%;
+  }
+  
+  .px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .flex-col-reverse {
+    flex-direction: column-reverse;
+  }
+  
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+  
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .md\:items-center {
+    align-items: center;
+  }
+  
+  .px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .my-1 {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .gap-3 {
+    gap: 0.75rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .bg-blue-500 {
+    background-color: #4299e1;
+  }
+  
+  .hover\:bg-blue-700:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .focus\:outline-none:focus {
+    outline: none;
+  }
+  
+  .focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
+  .bg-green-500 {
+    background-color: #48bb78;
+  }
+  
+  .hover\:bg-green-700:hover {
+    background-color: #2f855a;
+  }
+  
+  .bg-red-500 {
+    background-color: #f56565;
+  }
+  
+  .hover\:bg-red-700:hover {
+    background-color: #c53030;
+  }
+
+  /* Add this to your existing style.css file */
+
+.gradient-background {
+    background: linear-gradient(135deg, #3494e6, #ec6ead);
+  }
+  #ai h1{
+    color: black;
+  }
+
+  /* You can adjust the degree and color stops based on your preference */
+  
+  
+  /* Add this to your existing style.css file */
+
+.gradient-background {
+  background: linear-gradient(135deg, #3494e6, #ec6ead);
+}
+
+#ai h1 {
+  color: black; /* Adjust the color based on your preference */
+  /* Add any other styles for the h1 element here */
+}
+
+.output{
+  white-space: pre-wrap;
+  padding-left: 200px;
+}
