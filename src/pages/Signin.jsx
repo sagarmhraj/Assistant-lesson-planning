@@ -45,11 +45,11 @@ const SigninPage = () => {
     return (
         <div className="signin-page">
             <div className="title-container-welcome">
-                <img
-                    src={logo}
+                {/* <img
+                    src={logo.png}
                     alt="App Logo"
                     className="logo"
-                />
+                /> */}
                 <div className="spacer"></div>
                 <span className="app-name-welcome">WELCOME TO LESSION PLANNING ASSISTEN</span>
             </div>

@@ -169,7 +169,7 @@ export const Open = () => {
         <div className=" text-slate-100 w-full flex flex-col items-center">
           {isLoading ? ( // Display loading status while isLoading is true
             <img
-              src="https://i.pinimg.com/originals/62/26/43/6226435516042edfe1a4514a44e2023a.gif"
+              src="https:\\//i.pinimg.com/originals/62/26/43/6226435516042edfe1a4514a44e2023a.gif"
               alt="Picture of the author"
               className=" mix-blend-screen"
               width={350}
